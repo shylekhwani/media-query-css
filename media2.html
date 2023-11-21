@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ans 2</title>
+    <style>
+      .image {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 50px;
+        height: 400px;
+        flex-wrap: wrap;
+      }
+      img {
+        width: 15%;
+        padding-top: 40px;
+      }
+      @media screen and (max-width: 800px) {
+        img {
+          width: 35%;
+        }
+      }
+      @media screen and (max-width: 500px) {
+        img {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="image">
+        <img src="/Media Query/Black suit Spider-Man.jpg" alt="img1" />
+
+        <img src="/Media Query/Black suit Spider-Man.jpg" alt="img2" />
+
+        <img src="/Media Query/Black suit Spider-Man.jpg" alt="img3" />
+      </div>
+    </section>
+  </body>
+</html>
